@@ -21,9 +21,7 @@ const testedVersions = require('./lib/version').testedVersions
 module.exports = {
   createBot,
   Location: require('./lib/location'),
-  Painting: require('./lib/painting'),
   ScoreBoard: require('./lib/scoreboard'),
-  BossBar: require('./lib/bossbar'),
   supportedVersions,
   testedVersions,
   supportFeature
